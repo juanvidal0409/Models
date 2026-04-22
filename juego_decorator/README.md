@@ -8,18 +8,6 @@ todo, se "envuelven" objetos uno dentro de otro para agregar
 funcionalidades sin modificar el original.
 
 
-  PATRÓN DECORATOR (resumen rápido)
-
-
-  [Player]  →  [TrailDecorator]  →  [TimerDecorator]
-     ^                ^                     ^
-   objeto base    agrega rastro         agrega timer
-
-Cuando se llama game_object.update() o game_object.draw(),
-cada decorador hace su propio trabajo Y luego llama al del
-objeto que tiene adentro, formando una cadena.
-
-
   ARCHIVOS Y CLASES
 
 
