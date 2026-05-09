@@ -6,7 +6,7 @@ Proyecto académico en **Java con interfaz gráfica Swing**, que simula un cajer
 
 ## Contenido del repositorio
 
-- **`src/Sistema/`** — Código fuente del proyecto (13 clases Java)
+- **`CA-Banco.zip`** — Código fuente del proyecto (en `src/Sistema/` estan las 13 clases Java)
 - **`README.md`** — Este archivo
 - **`ANALISIS_MALAS_PRACTICAS.md`** — Análisis técnico del código por clase
 
