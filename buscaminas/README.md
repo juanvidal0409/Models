@@ -9,6 +9,27 @@ instalar nada adicional) y **3 niveles de dificultad**:
 | Medio   | 16 × 16 | 40    |
 | Difícil | 16 × 30 | 99    |
 
+## Instalar tkinter
+
+`tkinter` viene con Python, pero algunos sistemas lo separan en otro paquete.
+Comprueba si lo tienes con:
+
+```bash
+python -m tkinter
+```
+
+Si se abre una ventanita, ya está. Si no, instálalo:
+
+| Sistema           | Comando                                                        |
+|-------------------|----------------------------------------------------------------|
+| Windows / macOS   | Reinstalar Python desde python.org con la opción "tcl/tk and IDLE" |
+| Ubuntu / Debian   | `sudo apt install python3-tk`                                  |
+| Fedora            | `sudo dnf install python3-tkinter`                             |
+| Arch              | `sudo pacman -S tk`                                            |
+| macOS (Homebrew)  | `brew install python-tk`                                       |
+
+Se necesita Python 3.10 o superior.
+
 ## Cómo jugar
 
 ```bash
